@@ -14,12 +14,30 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    
+    
 
+    @IBOutlet weak var boardView: UIView!
+    @IBOutlet weak var movesLable: UILabel!
+    @IBOutlet weak var timeLabel: UILabel!
+   
+    
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        
+        
     }
 
+    @IBAction func newGamePressed(_ sender: UIBarButtonItem) {
+        print("new game")
+    }
 
 }
 
