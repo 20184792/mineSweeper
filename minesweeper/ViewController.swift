@@ -11,9 +11,8 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()0.
         
-        print("resting")
         // Do any additional setup after loading the view, typically from a nib.
     }
     
