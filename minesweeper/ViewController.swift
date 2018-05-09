@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func newGamePressed(_ sender: UIBarButtonItem) {
-        print("new game")
+        print("new gamea")
     }
 
 }
